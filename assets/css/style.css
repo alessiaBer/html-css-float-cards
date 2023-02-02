@@ -16,10 +16,6 @@ body {
 }
 /* #endregion Common */
 
-/* #region Utility Classes */
-
-/* #endregion Utility Classes */
-
 /* #region Header */
 h1 {
     text-align: center;
@@ -43,7 +39,7 @@ main p {
 /* #endregion Main */
 
 /* #region Cards */
-.card-container::after {
+.clearfix::after {
     content: '';
     display: table;
     clear: both;
@@ -62,6 +58,7 @@ main p {
     height: 100px;
     margin-right: 10px;
 }
+
 
 .card h3 {
     text-transform: uppercase;
