@@ -1,3 +1,4 @@
+/* #region Common */
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +8,56 @@
 :root {
     --fc-title: #e53170;
     --fc-cards: #0f0e17;
-    --fc-mails: #2798de;
+    --fc-mails: #51aad5;
 
 }
 
 body {
     font-family: 'Fredoka', sans-serif;
 }
+/* #endregion Common */
+
+/* #region Utility Classes */
+
+/* #endregion Utility Classes */
+
+/* #region Header */
+h1 {
+    text-align: center;
+    font-weight: 600;
+}
+/* #endregion Header */
+
+/* #region Main */
+main {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* #endregion Main */
+
+/* #region Cards */
+.card-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.card-container .card {
+    width: calc(100% / 3);
+    float: left;
+    border:1px solid red;
+}
+
+.card img {
+    float: left;
+    height: 100px;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* #endregion Cards */
+
+
+
