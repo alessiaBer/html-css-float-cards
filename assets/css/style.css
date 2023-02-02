@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fc-title: #e53170;
+    --fc-cards: #0f0e17;
+    --fc-mails: #2798de;
+
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
